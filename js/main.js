@@ -1,5 +1,68 @@
-var date = Date();
-alert(date.getMinutes());
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+//    console.log(document.getElementById("agradecimento"));
+//    alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://g1.globo.com/ba/bahia/"); // abre o link em uma nova pagina
+//    window.location.href = "https://g1.globo.com/ba/bahia/"; // abre o link na mesma pagina
+}
+
+function trocar(elemento){
+//    alert("Trocar texto");
+    elemento.innerHTML = "Obrigado por passar o mouse";
+//    document.getElementById("mouseMove").innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+//    document.getElementById("mouseMove").innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+
+/*
+function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual a sua idade? ");
+console.log(validaIdade(idade));
+*/
+
+
+/*
+function soma(n1, n2){
+    return n1 + n2;
+}
+alert(soma(5, 10));
+
+function setReplace(frase, palavra, nova_palavra){
+    return frase.replace(palavra, nova_palavra)
+}
+alert(setReplace("Oi,eu sou Jorge", "Jorge", "Atlas"));
+*/
+
+/*
+var date = new Date(); // cria uma variavel para mostrar a data
+alert(date.getMonth() + 1); // mostra o numero do mês atual (o +1 é porque começa a contar do 0)
+alert(date.getDay()); // mostra o numero do dia da semana atual
+alert(date.getHours()); // mostra a hora atual(apenas a hora)
+alert(date.getMinutes()); // mostra os minutos atuais(apenas os minutos)
+*/
 
 /*
 var count;
